@@ -6,7 +6,7 @@
 	},
 	"require-dev": {
 		"barryvdh/laravel-debugbar" : "*",
-		"barryvdh/laravel-debugbar" : "*",
+		"barryvdh/laravel-debugbar" : "*"
 	},
 	"scripts": {
 		"post-autoload-dump": [
