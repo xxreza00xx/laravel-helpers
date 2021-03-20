@@ -4,7 +4,7 @@
 		"barryvdh/laravel-debugbar --dev" : "*",
 		"barryvdh/laravel-debugbar --dev" : "*",
 		"laravel-lang/lang" : "*",
-		"mews/purifier": "~3.0",
+		"mews/purifier": "*",
 	},
 	"scripts": {
 		"post-autoload-dump": [
