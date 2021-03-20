@@ -1,10 +1,12 @@
 {
     "name": "xxreza00xx/laravel-helpersr",
     "require": {
-		"barryvdh/laravel-debugbar --dev" : "*",
-		"barryvdh/laravel-debugbar --dev" : "*",
 		"laravel-lang/lang" : "*",
 		"mews/purifier" : "*"
+	},
+	"require-dev": {
+		"barryvdh/laravel-debugbar --dev" : "*",
+		"barryvdh/laravel-debugbar --dev" : "*",
 	},
 	"scripts": {
 		"post-autoload-dump": [
