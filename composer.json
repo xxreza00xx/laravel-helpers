@@ -4,7 +4,7 @@
 		"barryvdh/laravel-debugbar --dev" : "*",
 		"barryvdh/laravel-debugbar --dev" : "*",
 		"laravel-lang/lang" : "*",
-		"mews/purifier": "*",
+		"mews/purifier" : "*"
 	},
 	"scripts": {
 		"post-autoload-dump": [
@@ -12,5 +12,5 @@
 			"@php artisan ide-helper:meta",
 			"@php artisan ide-helper:models --nowrite"
 		]
-	},
+	}
 }
