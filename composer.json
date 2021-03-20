@@ -1,0 +1,16 @@
+{
+    "name": "XrezaX/helper",
+    "require": {
+		"barryvdh/laravel-debugbar --dev" : "*",
+		"barryvdh/laravel-debugbar --dev" : "*",
+		"laravel-lang/lang" : "*",
+		"mews/purifier": "~3.0",
+	},
+	"scripts": {
+		"post-autoload-dump": [
+			"@php artisan ide-helper:generate",
+			"@php artisan ide-helper:meta",
+			"@php artisan ide-helper:models --nowrite"
+		]
+	},
+}
